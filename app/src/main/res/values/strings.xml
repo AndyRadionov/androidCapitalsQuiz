@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--Application Strings-->
+    <string name="app_name">Quiz Capitals</string>
+
+    <!--MainActivity Strings-->
+    <string name="world_capitals_quiz">World Capitals Quiz</string>
+    <string name="enter_your_name">Enter Your Name:</string>
+    <string name="start_btn">Start</string>
+    <string name="input_name_error_msg" tools:ignore="TypographyDashes">Please Enter Correct Name!\n\t\tA-Z;a-z;0-9;.;-;_ allowed</string>
+
+    <!--QuizActivity Strings-->
+    <string name="score_display">Score: %d</string>
+    <string name="question_title">What is the capital of</string>
+    <string name="question_number_display">Question %d / 10</string>
+    <string name="game_started_msg">New Game Started!</string>
+
+    <!--ResultDialog Strings-->
+    <string name="result_message">%s, Your Score is: %d \n%s</string>
+    <string name="result_dialog_title">Quiz Result Score</string>
+
+    <!--ResultDialog Buttons-->
+    <string name="exit_button">Exit</string>
+    <string name="restart_button">Restart</string>
+    <string name="change_player_button">Change Player</string>
+
+    <!--Congrats Messages-->
+    <string name="first_score_msg">Awesome!</string>
+    <string name="second_score_msg">Great Job!</string>
+    <string name="third_score_msg">Good Job!</string>
+    <string name="fourth_score_msg">You can do better!</string>
+    <string name="fifth_score_msg">Not good. Try again?</string>
+</resources>
