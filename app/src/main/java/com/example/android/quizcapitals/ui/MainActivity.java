@@ -12,7 +12,7 @@ import com.example.android.quizcapitals.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    private static final String USER_NAME_PATTERN = "[\\w.-]{1,20}";
+    private static final String USER_NAME_PATTERN = "[А-Яа-я\\w.-]{1,20}";
     private EditText mUserNameInput;
 
     @Override

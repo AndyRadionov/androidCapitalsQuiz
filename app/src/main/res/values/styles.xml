@@ -21,6 +21,8 @@
 
     <!--ActivityMain TextView styles-->
     <style name="main_screen_title">
+        <item name="android:textAlignment">center</item>
+        <item name="android:scrollHorizontally">false</item>
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center</item>
@@ -28,6 +30,7 @@
         <item name="android:textColor">@color/accent</item>
         <item name="android:textSize">40sp</item>
     </style>
+
     <style name="main_screen_subtitle" parent="main_screen_title">
         <item name="android:textSize">20sp</item>
     </style>
@@ -46,6 +49,7 @@
         <item name="android:textColor">@color/secondary_text</item>
         <item name="android:textSize">18sp</item>
     </style>
+
     <style name="quiz_delimiter">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">5dp</item>
