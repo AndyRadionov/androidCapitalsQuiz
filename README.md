@@ -1,4 +1,9 @@
 # Android Capitals Quiz Game
+<a href="https://play.google.com/store/apps/details?id=io.github.andyradionov.quizcapitals">
+  <img src="https://play.google.com/intl/en_gb/badges/images/generic/en_badge_web_generic.png" width="200"> 
+</a>
+
+
 
 Final project from Udacity Android Basics: Input Course
 
